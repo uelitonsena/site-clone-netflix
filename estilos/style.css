@@ -59,6 +59,7 @@ img {
     justify-content: center;
     text-align: center;
     position: relative;
+    box-sizing: border-box;
 }
 .main-child{
     z-index: 1;
@@ -67,11 +68,13 @@ img {
 
 }
 .main h1{
-    font-size: 64px;
-    max-width: 510px;
+    font-size: 50px;
+    max-width: 974.68px;
+    padding-bottom: 10px;
 }
 .main span{
     font-size: 26px;
+    padding-bottom: 15px;
 }
 
 .form-cta{
@@ -84,18 +87,23 @@ img {
 .form-cta input{
     padding: 20px 10px;
     font-size: 18px;
+    border: 1px solid white;
     font-family: sans-serif;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.185);
 
 }
 
 .form-cta button{
     background-color: red;
+    border-radius: 5px;
     outline: none;
-    border: none;
+    border: none ;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     text-transform: uppercase;
     cursor: pointer;
+    margin-left: 0.5rem;
 }
 
 .form-cta button:hover{
@@ -151,4 +159,63 @@ img {
     width: 400px;
     top: 80px;
     left: 70px;
+}
+
+.img-pc{
+    position: relative;
+    
+}
+
+.img-pc img{
+    position: relative;
+    z-index: 1;
+
+}
+
+.video-pc{
+    position: absolute;
+    width: 350px;
+    top: 40px;
+    left: 90px;
+}
+
+.img-infantil{
+    position: relative;
+    
+}
+
+.img-infantil img{
+    position: relative;
+    z-index: 1;
+
+}
+
+.download .grid > div:first-child{
+    order: 1;
+
+}
+
+.download .img-tv{
+
+}
+
+.footer .form-cta{
+    margin-top: 0;
+}
+
+.footer{
+    padding: 4rem 2rem;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.footer p{
+    margin-top: 2rem;
+    color: #757575;
+    font-size: 13px;
+}
+
+.footer h2{
+    margin-bottom: 2rem;
 }
